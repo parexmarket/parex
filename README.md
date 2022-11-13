@@ -413,13 +413,9 @@ Sample Fee Calculation
 - %0,1 DexClouder Beauty Bonus
 
 
-### What are the DRC (Dexchain Request Contract) Types
-- `DRC-4 (Academy Contract)`
-- `DRC-8 (Main Contract)`
-- `DRC-16 (Token)` 
-- `DRC-32 (Survey, Advertisement, Announcement)`
-- `DRC-64 (Internet of Things)`
-- `DRC-128 (Artificial Intelligent, Big Data)`
+### What are the PEP (Parex Request Contract) Types
+
+- `PEP-2 (Token)` 
 
 ### Where Can I Run parex Node?
 You can run parex Node on
