@@ -10,8 +10,7 @@
 parex is the newest technology for `blockchain` and can be used as a payment gateway.
 
 - [`parex`](https://parex.io) : The official web page of parex
-- [`DexLife`](https://parex.io): parex Masterlife Web Page
-- [`Academies`](https://parex.io/#/dashboards/academy): parex Trainings and Education Centers
+
 
 This guide is used by dozens of product teams at parex. Have a question or comment? [Open an issue!](https://github.com/parex/parex/issues/new)
 
