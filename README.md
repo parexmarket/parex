@@ -239,8 +239,6 @@ docker attach parex
 ```
 - `value : Pool Main Wallet for Insurance` 
 
-
-
 ```
 "http://{DockerHostIP}:2020/setCloudTracker/{communitycode}”
 ```
@@ -286,30 +284,6 @@ docker attach parex
 ```
 - `poolapikey : MasterTracker PoolApiKey` 
 
-```
-"http://{DockerHostIP}:2020/setDextracker/{dexTrackerNumber}”
-```
-- `dexTrackerNumber : DexChain Tracker Number` 
-- `dexhash: DexLife Transaction Hash`
-```
-"http://{DockerHostIP}:2020/setAcademy/{academyContract}”
-```
-- `academyContract : DexChain Academy Contract` 
-```
-"http://{DockerHostIP}:2020/setActivist/{address}&{dexhash}”
-```
-- `address : DexChain Address` 
-- `dexhash: Dexchain Transaction Hash`
-```
-"http://{DockerHostIP}:2020/setProActivist/{address}”
-```
-- `address : DexChain Address` 
-```
-"http://{DockerHostIP}:2020/setDexClouder/{address}&{contract}”
-```
-- `address : DexChain Address` 
-- `contract : DexStore Contract Address` 
-```
 "http://{DockerHostIP}:2020/setNickname/{nickName}”
 ```
 - `nickName : DexChain Tracker Nickname` 
@@ -397,6 +371,7 @@ docker attach parex
 ```
 - `address: Dexchain Address`
 - ```
+
 "http://{DockerHostIP}:2020/setChangePool/{poolApiKey}"
 ```
 - `poolApiKey: new poolApiKey`
