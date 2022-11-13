@@ -22,10 +22,13 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 - [FAQ](#books-faq)
 - [Roadmap](#roadmap)
 
-## parex Consensus
-![parex Consensus](parex_Logos/consensus.jpg?raw=true)
+
 
 ## Public Release Notes
+
+##### v2.5.0
+- Parex Network 
+
 
 ##### v2.4.5d
 - Various improvements for fast sync 
@@ -42,9 +45,6 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 
 - Burn Approve
 - "http://{DockerHostIP}:2020/setBurnApprove/{hash}" 
-
-
-
 
 
 ##### v2.4.5
