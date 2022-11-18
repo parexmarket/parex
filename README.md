@@ -9,7 +9,7 @@
 
 parex is the newest technology for `blockchain` and can be used as a payment gateway.
 
-- [`parex`](https://parex.io) : The official web page of parex
+- [`parex`](https://parexscan.io) : The official web page of parex
 
 
 This guide is used by dozens of product teams at parex. Have a question or comment? [Open an issue!](https://github.com/parex/parex/issues/new)
