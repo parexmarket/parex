@@ -115,7 +115,7 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 ##### v2.3.1
 - optimize sync
 ##### v2.3.0
-- parex Node Offline Sync (Fastest Way) https://backup.parex.io
+- parex Node Offline Sync (Fastest Way) https://backup.parexscan.io
 ##### v2.2.10
 - online status optimized
 ##### v2.2.9
@@ -183,11 +183,11 @@ Steps:
  - Unzip files to docker volume.
  - Start the node 
 
-Offline Blocks Link: https://backup.parex.io
+Offline Blocks Link: https://backup.parexscan.io
 
 Commands to Execute:
 ```
-wget https://backup.parex.io/data-[date].tar.gz
+wget https://backup.parexscan.io/data-[date].tar.gz
 ```
 Stop parex node
 ```
