@@ -187,7 +187,7 @@ Offline Blocks Link: https://backup.parexscan.io
 
 Commands to Execute:
 ```
-wget https://backup.parexscan.io/data-[date].tar.gz
+wget https://backup.parexscan.io/parex-data-[date].tar.gz
 ```
 Stop parex node
 ```
@@ -199,7 +199,7 @@ rm -rf /var/lib/docker/volumes/parex/_data/12
 ```
 Untar archive to data dir
 ```
-tar -zxvf data-[date].tar.gz -C /var/lib/docker/volumes/parex/_data/
+tar -zxvf parex-data-[date].tar.gz -C /var/lib/docker/volumes/parex/_data/
 ```
 And start the node
 ```
