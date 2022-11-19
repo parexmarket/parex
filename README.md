@@ -260,7 +260,7 @@ docker attach parex
 ```
 "http://{DockerHostIP}:2020/setMasterPackage/{dexhash}”
 ```
-- `dexhash : DexChain Transaction Hash` 
+- `dexhash : Transaction Hash` 
 
 ```
 "http://{DockerHostIP}:2020/getParexKey/”
@@ -286,24 +286,24 @@ docker attach parex
 
 "http://{DockerHostIP}:2020/setNickname/{nickName}”
 ```
-- `nickName : DexChain Tracker Nickname` 
+- `nickName : Tracker Nickname` 
 ```
 “http://{DockerHostIP}:2020/isWallet/{address}”
 ```
-- `address: Dexchain Address`
+- `address: Wallet Address`
 ```
 "http://{DockerHostIP}:2020/balanceWallet/{address}"
 ```
-- `address: Dexchain Address`
+- `address: Wallet Address`
 ```
 "http://{DockerHostIP}:2020/balanceToken/{address}&{contract}"
 ```
-- `address: Dexchain Address`
-- `contract: DexChain Contract Address (if null please set “parex”)`
+- `address: Wallet Address`
+- `contract: Contract Address (if null please set “parex”)`
 ```
 “http://{DockerHostIP}:2020/createWallet/{password}”
 ```
-- `password: Dexchain Address password “Please Don’t Forget it”`
+- `password: Wallet Address password “Please Don’t Forget it”`
 ```
 "http://{DockerHostIP}:2020/getLastBlock/"
 ```
@@ -311,11 +311,11 @@ docker attach parex
 ```
 "http://{DockerHostIP}:2020/getTransactionByDexHash/{dexhash}"
 ```
-- `dexhash: Dexchain Transaction Hash`
+- `dexhash: Transaction Hash`
 ```
 "http://{DockerHostIP}:2020/getTransactions/{address}&{limit}&{orderby}”
 ```
-- `address: Dexchain Address`
+- `address: Wallet Address`
 - `limit: number of records`
 - `orderby: ASC or DESC `
 ```
@@ -340,12 +340,12 @@ docker attach parex
 ```
 "http://{DockerHostIP}:2020/sendTransaction/{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
 ```
-- `sender : Sender Dexchain Address`
-- `password: Dexchain Address password`
-- `receiver: Receiver Dexchain Address`
+- `sender : Sender Wallet Address`
+- `password: Wallet Address password`
+- `receiver: Receiver Wallet Address`
 - `amount: Amount of DXC`
 - `fee: Fee of Transaction (IN / OUT)` 
-- `contract: DexChain Contract Address (if null please set “parex”)`
+- `contract: Contract Address (if null please set “parex”)`
 - `description: Statements of Transaction (if null please set “null”)`
 ```
 "http://{DockerHostIP}:2020/getSendToken/”
@@ -355,12 +355,12 @@ docker attach parex
 "http://{DockerHostIP}:2020/sendTransactionV2/{sendtoken}&{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
 ```
 - `sendtoken : Unique Token GUID`
-- `sender : Sender Dexchain Address`
-- `password: Dexchain Address password`
-- `receiver: Receiver Dexchain Address`
+- `sender : Sender Wallet Address`
+- `password: Wallet Address password`
+- `receiver: Receiver Wallet Address`
 - `amount: Amount of DXC`
 - `fee: Fee of Transaction (IN / OUT)` 
-- `contract: DexChain Contract Address (if null please set “parex”)`
+- `contract: Contract Address (if null please set “parex”)`
 - `description: Statements of Transaction (if null please set “null”)`
 ```
 "http://{DockerHostIP}:2020/getFee/{amount}&{contract}"
@@ -369,7 +369,7 @@ docker attach parex
 ```
 "http://{DockerHostIP}:2020/getmyWallet/"
 ```
-- `address: Dexchain Address`
+- `address: Wallet Address`
 - ```
 
 "http://{DockerHostIP}:2020/setChangePool/{poolApiKey}"
@@ -601,7 +601,7 @@ Mount disk is located under:
 %USERPROFILE%\AppData\Local\Docker\wsl\data\ext4.vhdx
 ```
 ### How to run Test Mode 
-Test mode is used for making demo for DexChain Network. **Do not use for production!**
+Test mode is used for making demo for Parex Network. **Do not use for production!**
 ```
 docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parextestnet parex/parex:testnet
 ```
