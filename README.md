@@ -1,4 +1,4 @@
-# parex
+# Parex
 
 [![Releases](https://img.shields.io/badge/version-1.0.1-orange)](#)
 [![Jenkins Build](https://img.shields.io/badge/build-passing-brightgreen)](#)
