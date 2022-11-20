@@ -133,7 +133,7 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 ##### v2.2.4
 - "http://{DockerHostIP}:2020/setPoolServiceFee/{percent}” 
 ##### v2.2.3
-- DXC Mining
+- Mining
 - Dual Coin Mining (PRX)
 ##### v2.2.2
 - Adding DRSProtocol (Duplicate Record Security Protocol)
@@ -244,9 +244,6 @@ docker attach parex
 ```
 - `communitycode : CloudTracker Key(communitycode)` 
 
-```
-"http://{DockerHostIP}:2020/setStartDXCMiner/”
-```
 
 ```
 "http://{DockerHostIP}:2020/setStartPRXMiner/”
@@ -343,7 +340,7 @@ docker attach parex
 - `sender : Sender Wallet Address`
 - `password: Wallet Address password`
 - `receiver: Receiver Wallet Address`
-- `amount: Amount of DXC`
+- `amount: Amount`
 - `fee: Fee of Transaction (IN / OUT)` 
 - `contract: Contract Address (if null please set “parex”)`
 - `description: Statements of Transaction (if null please set “null”)`
@@ -358,14 +355,14 @@ docker attach parex
 - `sender : Sender Wallet Address`
 - `password: Wallet Address password`
 - `receiver: Receiver Wallet Address`
-- `amount: Amount of DXC`
+- `amount: Amount`
 - `fee: Fee of Transaction (IN / OUT)` 
 - `contract: Contract Address (if null please set “parex”)`
 - `description: Statements of Transaction (if null please set “null”)`
 ```
 "http://{DockerHostIP}:2020/getFee/{amount}&{contract}"
 ```
-- `fee: Fee DXC`
+- `fee: Fee `
 ```
 "http://{DockerHostIP}:2020/getmyWallet/"
 ```
