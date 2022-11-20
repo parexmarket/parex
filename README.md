@@ -470,7 +470,7 @@ These options are settings that change shell behavior. The following table is a 
 
 ### How to Backup the parex Node?
 
-MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside dockerfile. All the data is saved inside **`/var/lib/docker/volumes/parex`** and make sure that you **backup** the folder.
+Parex maps blocks inside PostgreSQL and it has been addressed inside dockerfile. All the data is saved inside **`/var/lib/docker/volumes/parex`** and make sure that you **backup** the folder.
 
 
 #### Linux & MacOs
