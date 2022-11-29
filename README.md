@@ -28,7 +28,7 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 ##### v2.5.0
 - Parex Network 
 
-Commands to Execute:
+Commands to Execute: For Moving from old Node to new Node
 ```
 wget https://raw.githubusercontent.com/parexmarket/parex/main/movetoparex.sh
 ```
