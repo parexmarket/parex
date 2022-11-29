@@ -29,6 +29,16 @@ This guide is used by dozens of product teams at parex. Have a question or comme
 - Parex Network 
 
 
+Commands to Execute:
+```
+wget https://raw.githubusercontent.com/parexmarket/parex/main/movetoparex.sh
+```
+bash movetoparex.sh
+```
+
+
+
+
 ##### v2.4.5d
 - Various improvements for fast sync 
 
